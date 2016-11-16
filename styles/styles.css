@@ -1,3 +1,13 @@
+/*
+COLOR SCHEME
+Background-Color: Lightblue
+  color: #000000;
+  color:#9B2E2E
+  color: #32AEB5;
+  color: #32AEB5
+Paragraph-Color: Red
+*/
+
 body {
   font-size:1em;
   font-weight:normal;
@@ -5,8 +15,8 @@ body {
   color: #000000; /* black */
   text-align: left;
   margin: 0 auto;
-  max-width: 90%;
-  background-color: lightblue;
+  max-width: 60%;
+  background-color: #E9D6EC;
 }
 p{
   color:#9B2E2E
@@ -14,10 +24,13 @@ p{
 h1 {
   font-size: 1.8em;
   font-weight: bold;
-  color: #32AEB5;
+  color: black;
   text-align: center;
 }
 h2{
-  color: #32AEB5
+  color: #32AEB5;
+  border: 5px solid black;
+
+  padding: 15px;
 
 }
