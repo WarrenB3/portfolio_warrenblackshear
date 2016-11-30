@@ -79,10 +79,40 @@ section p {
 
 /* Change this style */
 #biggerText {
-font-size: 250%
+font-size:1.6em
 }
 
 /* Change this style */
 .indent {
 
+}
+/* Place this at the very top of your typographystyles.css document */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
+
+/* Place these styles towards the bottom of your typographystyles.css document */
+
+.weights {
+  font-family: "Roboto";
+  font-size: 32px;
+}
+
+#weight1 {
+  /* Change the font-weight property to give it a thin-weight */
+}
+
+#weight2 {
+  /* Change the font-weight property to give it a light-weight */
+}
+
+#weight3 {
+  /* Change the font-weight property to give it a regular-weight */
+}
+
+#weight4 {
+  /* Change the font-weight property to give it a bold-weight */
+}
+
+#weight5 {
+  /* Change the font-weight property to give it a ultra-bold-weight */
 }
