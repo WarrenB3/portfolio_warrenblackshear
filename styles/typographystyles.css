@@ -1,7 +1,7 @@
 /* Place this at the very top of your typographystyles.css document */
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
-
+@import url('https://fonts.googleapis.com/css?family=Bungee');
 
 
 /*** KERNING & LEADING ASSIGNMENT STYLES ***/
@@ -128,7 +128,7 @@ font-size:1.6em
   * Use two different typefaces (a serif and a sans-serif)
   * Use at least three different font-sizes
   * Use a color that contrasts with the background image
-      * Recommended to use the text-shadow property to increase contrast
+      * Recommended to use the text-transform:;t-shadow property to increase contrast
   * Use a hierarchy that emphasizes the most important words
       * Font size, font weight, logical grouping, orientation
   */
@@ -139,23 +139,37 @@ font-size:1.6em
   background-position: center center;
   height: 500px;
   width: 800px;
-  margin: 900 auto;
+  margin: 0 auto;
+  color: white;
+  text-shadow: 3px 3px black;
 }
 
 #title {
   font-size:2.6em;
+  margin-left: 5%;
+  font-weight: bolder;
+  font-family: "Bungee";
 }
 
-#national {
-  font-weight: 900;
-}
 
 #distance {
-font-size: 1.6em;
+font-size: 2.5em;
 font-weight: 700;
+margin-left: 25%;
 }
 
 #width{
-  font-size: 1.6em;
-  font-weight:700; 
+  font-size: 2.5em;
+  font-weight:700;
+  margin-left: 25%;
+}
+
+#link{
+font-size: 2em;
+color: white;
+margin-left: 25%
+}
+#depth{
+  font-size: 2.5em;
+  margin-left: 25%
 }
