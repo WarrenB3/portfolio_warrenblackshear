@@ -1,9 +1,21 @@
-#line1{
+
+.title{
 font-size: 1.6em;
 font-weight: bold;
 color: darkblue;
 border: 5px solid;
-border-color: gray;
+border-color: black;
+padding: 15px;
+}
 
+#quote1text {
+  font-size: 1.6em;
+  font-weight: bold;
+  color: red;
+}
+#quote2text{
+  font-size: 1.6em;
+  font-weight: bold;
+  color: green;
 
 }
