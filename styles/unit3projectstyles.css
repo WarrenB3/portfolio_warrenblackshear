@@ -1,4 +1,5 @@
-
+@import url('https://fonts.googleapis.com/css?family=Aref+Ruqaa');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
 .title{
 font-size: 1.6em;
 font-weight: bold;
@@ -12,10 +13,14 @@ padding: 15px;
   font-size: 1.6em;
   font-weight: bold;
   color: red;
+  font-family: "Indie Flower";
+  letter-spacing: 1px;
 }
 #quote2text{
   font-size: 1.6em;
   font-weight: bold;
   color: green;
+  font-family: "Aref Ruqaa";
+  letter-spacing: 1px;
 
 }
